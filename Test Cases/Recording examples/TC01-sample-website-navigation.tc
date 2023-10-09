@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://www.koenig-solutions.com/
+Navigate to 'About Us' then 'Contact Us'</description>
+   <name>TC01-sample-website-navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b105c47-3027-42ac-899b-f3db3cb22f2c</testCaseGuid>
+</TestCaseEntity>

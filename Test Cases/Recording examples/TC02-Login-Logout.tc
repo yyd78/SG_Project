@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</description>
+   <name>TC02-Login-Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>152bf0c4-7fd1-4635-a0ab-197affb526ab</testCaseGuid>
+</TestCaseEntity>
