@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Google_Search</name>
+   <tag></tag>
+   <elementGuidId>997fa301-6032-4bd9-8b61-df329cfc6ca1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'APjFqb' and @name = 'q']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>APjFqb</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>APjFqb</value>
+      <webElementGuid>1f829ee5-cc63-4628-8494-896d4403726e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>q</value>
+      <webElementGuid>d807b160-ec11-487e-a729-a8cb4906bc30</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
