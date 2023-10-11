@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,,Testing,,2023-10-11 14:45:54,2023-10-11 14:46:33,38.883s,FAILED
+,,,,,,,
+Test Cases/File Upload/TC12 - File upload,,,,2023-10-11 14:46:08,2023-10-11 14:46:12,4.130s,FAILED
+"openBrowser(""https://cgi-lib.berkeley.edu/ex/fup.html"")",,,,2023-10-11 14:46:08,2023-10-11 14:46:08,0.011s,FAILED
+"uploadFile(findTestObject(""ChooseFile_btn""), ""C:\Users\yyd78\Desktop\sample.txt"")",,,,2023-10-11 14:46:08,2023-10-11 14:46:08,0.048s,FAILED
+"click(findTestObject(""Press_btn""))",,,,2023-10-11 14:46:08,2023-10-11 14:46:08,0.039s,FAILED
+"verifyTextPresent(""File Upload Results"", true)",,,,2023-10-11 14:46:08,2023-10-11 14:46:08,0.006s,FAILED
+delay(4),,,,2023-10-11 14:46:08,2023-10-11 14:46:12,4.009s,PASSED
+closeBrowser(),,,,2023-10-11 14:46:12,2023-10-11 14:46:12,0.007s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC13-File Download,,,,2023-10-11 14:46:28,2023-10-11 14:46:33,5.198s,FAILED
+"openBrowser(""https://file-examples.com/index.php/sample-documents-download/"")",,,,2023-10-11 14:46:28,2023-10-11 14:46:28,0.006s,FAILED
+maximizeWindow(),,,,2023-10-11 14:46:28,2023-10-11 14:46:28,0.006s,FAILED
+"scrollToElement(findTestObject(""PDFDownload""), 3)",,,,2023-10-11 14:46:28,2023-10-11 14:46:28,0.053s,FAILED
+"click(findTestObject(""PDFDownload""))",,,,2023-10-11 14:46:28,2023-10-11 14:46:28,0.046s,FAILED
+"scrollToPosition(0, 600)",,,,2023-10-11 14:46:28,2023-10-11 14:46:28,0.007s,FAILED
+"click(findTestObject(""150k_dl""))",,,,2023-10-11 14:46:28,2023-10-11 14:46:28,0.047s,FAILED
+delay(5),,,,2023-10-11 14:46:28,2023-10-11 14:46:33,5.013s,PASSED
+"takeScreenshot(""C:\desktop\screenshot.png"")",,,,2023-10-11 14:46:33,2023-10-11 14:46:33,0.007s,ERROR

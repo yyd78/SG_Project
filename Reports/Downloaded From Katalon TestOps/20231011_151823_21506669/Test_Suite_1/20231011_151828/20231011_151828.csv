@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,Edge Chromium 117,Testing,,2023-10-11 15:20:15,2023-10-11 15:20:51,36.394s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC12 - File upload,Edge Chromium 117,,,2023-10-11 15:20:15,2023-10-11 15:20:25,10.013s,PASSED
+"openBrowser(""https://cgi-lib.berkeley.edu/ex/fup.html"")",Edge Chromium 117,,,2023-10-11 15:20:15,2023-10-11 15:20:19,3.463s,PASSED
+"uploadFile(findTestObject(""ChooseFile_btn""), ""C:\Users\yyd78\Desktop\sample.txt"")",Edge Chromium 117,,,2023-10-11 15:20:19,2023-10-11 15:20:19,0.429s,PASSED
+"click(findTestObject(""Press_btn""))",Edge Chromium 117,,,2023-10-11 15:20:19,2023-10-11 15:20:20,0.664s,PASSED
+"verifyTextPresent(""File Upload Results"", true)",Edge Chromium 117,,,2023-10-11 15:20:20,2023-10-11 15:20:20,0.339s,PASSED
+delay(4),Edge Chromium 117,,,2023-10-11 15:20:20,2023-10-11 15:20:24,4.020s,PASSED
+closeBrowser(),Edge Chromium 117,,,2023-10-11 15:20:24,2023-10-11 15:20:25,0.811s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC13-File Download,Edge Chromium 117,,,2023-10-11 15:20:25,2023-10-11 15:20:51,26.151s,PASSED
+"openBrowser(""https://file-examples.com/index.php/sample-documents-download/"")",Edge Chromium 117,,,2023-10-11 15:20:25,2023-10-11 15:20:30,4.714s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-11 15:20:30,2023-10-11 15:20:30,0.235s,PASSED
+"scrollToElement(findTestObject(""PDFDownload""), 3)",Edge Chromium 117,,,2023-10-11 15:20:30,2023-10-11 15:20:31,0.340s,PASSED
+"click(findTestObject(""PDFDownload""))",Edge Chromium 117,,,2023-10-11 15:20:31,2023-10-11 15:20:34,2.941s,PASSED
+"scrollToPosition(0, 600)",Edge Chromium 117,,,2023-10-11 15:20:34,2023-10-11 15:20:34,0.031s,PASSED
+"click(findTestObject(""150k_dl""))",Edge Chromium 117,,,2023-10-11 15:20:34,2023-10-11 15:20:45,11.377s,PASSED
+delay(5),Edge Chromium 117,,,2023-10-11 15:20:45,2023-10-11 15:20:50,5.009s,PASSED
+"takeScreenshot(""C:\desktop\screenshot.png"")",Edge Chromium 117,,,2023-10-11 15:20:50,2023-10-11 15:20:50,0.448s,PASSED
+closeBrowser(),Edge Chromium 117,,,2023-10-11 15:20:50,2023-10-11 15:20:51,0.826s,PASSED

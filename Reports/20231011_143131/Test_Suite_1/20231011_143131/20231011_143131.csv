@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,Chrome 117.0.0.0,Testing,,2023-10-11 14:31:33,2023-10-11 14:32:07,33.938s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC12 - File upload,Chrome 117.0.0.0,,,2023-10-11 14:31:34,2023-10-11 14:31:43,9.877s,PASSED
+"openBrowser(""https://cgi-lib.berkeley.edu/ex/fup.html"")",Chrome 117.0.0.0,,,2023-10-11 14:31:34,2023-10-11 14:31:37,3.390s,PASSED
+"uploadFile(findTestObject(""ChooseFile_btn""), ""C:\Users\yyd78\Desktop\sample.txt"")",Chrome 117.0.0.0,,,2023-10-11 14:31:37,2023-10-11 14:31:38,0.475s,PASSED
+"click(findTestObject(""Press_btn""))",Chrome 117.0.0.0,,,2023-10-11 14:31:38,2023-10-11 14:31:38,0.629s,PASSED
+"verifyTextPresent(""File Upload Results"", true)",Chrome 117.0.0.0,,,2023-10-11 14:31:38,2023-10-11 14:31:39,0.331s,PASSED
+delay(4),Chrome 117.0.0.0,,,2023-10-11 14:31:39,2023-10-11 14:31:43,4.033s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-11 14:31:43,2023-10-11 14:31:43,0.714s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC13-File Download,Chrome 117.0.0.0,,,2023-10-11 14:31:43,2023-10-11 14:32:07,23.819s,PASSED
+"openBrowser(""https://file-examples.com/index.php/sample-documents-download/"")",Chrome 117.0.0.0,,,2023-10-11 14:31:44,2023-10-11 14:31:49,5.026s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,2023-10-11 14:31:49,2023-10-11 14:31:49,0.161s,PASSED
+"scrollToElement(findTestObject(""PDFDownload""), 3)",Chrome 117.0.0.0,,,2023-10-11 14:31:49,2023-10-11 14:31:50,1.266s,PASSED
+"click(findTestObject(""PDFDownload""))",Chrome 117.0.0.0,,,2023-10-11 14:31:50,2023-10-11 14:31:55,4.612s,PASSED
+"scrollToPosition(0, 600)",Chrome 117.0.0.0,,,2023-10-11 14:31:55,2023-10-11 14:31:55,0.052s,PASSED
+"click(findTestObject(""150k_dl""))",Chrome 117.0.0.0,,,2023-10-11 14:31:55,2023-10-11 14:32:01,6.167s,PASSED
+delay(5),Chrome 117.0.0.0,,,2023-10-11 14:32:01,2023-10-11 14:32:06,5.010s,PASSED
+"takeScreenshot(""C:\desktop\screenshot.png"")",Chrome 117.0.0.0,,,2023-10-11 14:32:06,2023-10-11 14:32:06,0.492s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-11 14:32:06,2023-10-11 14:32:07,0.779s,PASSED

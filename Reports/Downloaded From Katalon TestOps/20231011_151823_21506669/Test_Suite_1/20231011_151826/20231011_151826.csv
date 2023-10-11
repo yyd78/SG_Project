@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,Firefox 118.0,Testing,,2023-10-11 15:19:26,2023-10-11 15:19:58,32.575s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC12 - File upload,Firefox 118.0,,,2023-10-11 15:19:26,2023-10-11 15:19:38,12.591s,PASSED
+"openBrowser(""https://cgi-lib.berkeley.edu/ex/fup.html"")",Firefox 118.0,,,2023-10-11 15:19:26,2023-10-11 15:19:32,5.825s,PASSED
+"uploadFile(findTestObject(""ChooseFile_btn""), ""C:\Users\yyd78\Desktop\sample.txt"")",Firefox 118.0,,,2023-10-11 15:19:32,2023-10-11 15:19:32,0.474s,PASSED
+"click(findTestObject(""Press_btn""))",Firefox 118.0,,,2023-10-11 15:19:32,2023-10-11 15:19:33,0.610s,PASSED
+"verifyTextPresent(""File Upload Results"", true)",Firefox 118.0,,,2023-10-11 15:19:33,2023-10-11 15:19:33,0.346s,PASSED
+delay(4),Firefox 118.0,,,2023-10-11 15:19:33,2023-10-11 15:19:37,4.023s,PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-11 15:19:37,2023-10-11 15:19:38,1.008s,PASSED
+,,,,,,,
+Test Cases/File Upload/TC13-File Download,Firefox 118.0,,,2023-10-11 15:19:38,2023-10-11 15:19:58,19.745s,PASSED
+"openBrowser(""https://file-examples.com/index.php/sample-documents-download/"")",Firefox 118.0,,,2023-10-11 15:19:39,2023-10-11 15:19:45,6.645s,PASSED
+maximizeWindow(),Firefox 118.0,,,2023-10-11 15:19:45,2023-10-11 15:19:46,0.333s,PASSED
+"scrollToElement(findTestObject(""PDFDownload""), 3)",Firefox 118.0,,,2023-10-11 15:19:46,2023-10-11 15:19:46,0.708s,PASSED
+"click(findTestObject(""PDFDownload""))",Firefox 118.0,,,2023-10-11 15:19:46,2023-10-11 15:19:48,1.751s,PASSED
+"scrollToPosition(0, 600)",Firefox 118.0,,,2023-10-11 15:19:48,2023-10-11 15:19:48,0.028s,PASSED
+"click(findTestObject(""150k_dl""))",Firefox 118.0,,,2023-10-11 15:19:48,2023-10-11 15:19:52,3.922s,PASSED
+delay(5),Firefox 118.0,,,2023-10-11 15:19:52,2023-10-11 15:19:57,5.017s,PASSED
+"takeScreenshot(""C:\desktop\screenshot.png"")",Firefox 118.0,,,2023-10-11 15:19:57,2023-10-11 15:19:57,0.165s,PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-11 15:19:57,2023-10-11 15:19:58,0.942s,PASSED
