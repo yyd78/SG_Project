@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BlazeDemo" time="54.623" tests="1" failures="0" errors="0">
+   <testsuite name="BlazeDemo" tests="1" failures="0" errors="0" time="54.623" skipped="0" timestamp="2023-10-12 12:16:44" hostname="yyd78 - YYD-DELL-01" id="Test Suites/BlazeDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yyd78\\git\\SG_Proj\\Reports\\20231012_121619\\BlazeDemo\\20231012_121622"/>
+         <property name="logFiles" value="C:\\Users\\yyd78\\git\\SG_Proj\\Reports\\20231012_121619\\BlazeDemo\\20231012_121622\\execution0.log"/>
+         <property name="attachments" value="C:\desktop\Purchase Confirm.jpg"/>
+         <property name="hostName" value="yyd78 - YYD-DELL-01"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 118.0"/>
+         <property name="hostAddress" value="192.168.0.86"/>
+         <property name="sessionId" value="4d983432-6ff7-426b-a650-06b77d6239e5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/BlazeDemo/TC30-BookFlight" time="53.811" classname="Test Cases/BlazeDemo/TC30-BookFlight" status="PASSED">
+         <system-out><![CDATA[2023-10-12 12:16:45 - [TEST_CASE][PASSED] - Test Cases/BlazeDemo/TC30-BookFlight: Test Cases/BlazeDemo/TC30-BookFlight
+
+2023-10-12 12:16:46 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://blazedemo.com/'
+
+2023-10-12 12:16:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-12 12:16:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-12 12:17:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://blazedemo.com/'
+
+2023-10-12 12:17:06 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2023-10-12 12:17:07 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2023-10-12 12:17:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-12 12:17:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-12 12:17:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("BlazeDemo/Page_BlazeDemo/Departure_City"), Departure_City, false): All options with value 'Boston' are selected in object 'Object Repository/BlazeDemo/Page_BlazeDemo/Departure_City' 
+
+2023-10-12 12:17:10 - [MESSAGE][PASSED] - All options with value 'Boston' are selected in object 'Object Repository/BlazeDemo/Page_BlazeDemo/Departure_City' 
+
+2023-10-12 12:17:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("BlazeDemo/Page_BlazeDemo/Destination_City"), Destination_City, false): All options with value 'New York' are selected in object 'Object Repository/BlazeDemo/Page_BlazeDemo/Destination_City' 
+
+2023-10-12 12:17:11 - [MESSAGE][PASSED] - All options with value 'New York' are selected in object 'Object Repository/BlazeDemo/Page_BlazeDemo/Destination_City' 
+
+2023-10-12 12:17:11 - [TEST_STEP][PASSED] - click(findTestObject("BlazeDemo/Page_BlazeDemo/Find Flights")): Object: 'Object Repository/BlazeDemo/Page_BlazeDemo/Find Flights' is clicked on
+
+2023-10-12 12:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BlazeDemo/Page_BlazeDemo/Find Flights' is clicked on
+
+2023-10-12 12:17:13 - [TEST_STEP][PASSED] - click(findTestObject("BlazeDemo/Page_BlazeDemo - reserve/Choose Flight")): Object: 'Object Repository/BlazeDemo/Page_BlazeDemo - reserve/Choose Flight' is clicked on
+
+2023-10-12 12:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BlazeDemo/Page_BlazeDemo - reserve/Choose Flight' is clicked on
+
+2023-10-12 12:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/Name"), "Kelvin"): Text 'Kelvin' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Name'
+
+2023-10-12 12:17:16 - [MESSAGE][PASSED] - Text 'Kelvin' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Name'
+
+2023-10-12 12:17:16 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/Address"), "Tampines"): Text 'Tampines' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Address'
+
+2023-10-12 12:17:17 - [MESSAGE][PASSED] - Text 'Tampines' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Address'
+
+2023-10-12 12:17:17 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/City"), "Singapore"): Text 'Singapore' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/City'
+
+2023-10-12 12:17:18 - [MESSAGE][PASSED] - Text 'Singapore' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/City'
+
+2023-10-12 12:17:18 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/State"), "NA"): Text 'NA' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/State'
+
+2023-10-12 12:17:19 - [MESSAGE][PASSED] - Text 'NA' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/State'
+
+2023-10-12 12:17:19 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/ZipCode"), "520915"): Text '520915' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/ZipCode'
+
+2023-10-12 12:17:21 - [MESSAGE][PASSED] - Text '520915' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/ZipCode'
+
+2023-10-12 12:17:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/Card_Type"), 2, CONTINUE_ON_FAILURE): All options with index in [2] are selected on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Card_Type'
+
+2023-10-12 12:17:24 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Card_Type'
+
+2023-10-12 12:17:24 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/CreditCardNumber"), "76347826489"): Text '76347826489' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/CreditCardNumber'
+
+2023-10-12 12:17:25 - [MESSAGE][PASSED] - Text '76347826489' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/CreditCardNumber'
+
+2023-10-12 12:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/CreditCardMonth"), "12"): Text '12' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/CreditCardMonth'
+
+2023-10-12 12:17:26 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/CreditCardMonth'
+
+2023-10-12 12:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/CreditCardYear"), "2025"): Text '2025' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/CreditCardYear'
+
+2023-10-12 12:17:27 - [MESSAGE][PASSED] - Text '2025' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/CreditCardYear'
+
+2023-10-12 12:17:27 - [TEST_STEP][PASSED] - setText(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/NameOnCard"), "Kelvin Gan"): Text 'Kelvin Gan' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/NameOnCard'
+
+2023-10-12 12:17:28 - [MESSAGE][PASSED] - Text 'Kelvin Gan' is set on object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/NameOnCard'
+
+2023-10-12 12:17:28 - [TEST_STEP][PASSED] - click(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/RememberMe")): Object: 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/RememberMe' is clicked on
+
+2023-10-12 12:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/RememberMe' is clicked on
+
+2023-10-12 12:17:29 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/RememberMe"), 1): Object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/RememberMe' is checked
+
+2023-10-12 12:17:30 - [MESSAGE][PASSED] - Object 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/RememberMe' is checked
+
+2023-10-12 12:17:30 - [TEST_STEP][PASSED] - click(findTestObject("BlazeDemo/Page_BlazeDemo Purchase/Purchase Flight")): Object: 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Purchase Flight' is clicked on
+
+2023-10-12 12:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BlazeDemo/Page_BlazeDemo Purchase/Purchase Flight' is clicked on
+
+2023-10-12 12:17:32 - [TEST_STEP][PASSED] - verifyTextPresent("Thank you for your purchase today!", false): Text 'Thank you for your purchase today!' is present on page 
+
+2023-10-12 12:17:32 - [MESSAGE][PASSED] - Text 'Thank you for your purchase today!' is present on page 
+
+2023-10-12 12:17:32 - [TEST_STEP][PASSED] - takeScreenshot("C:\desktop\Purchase Confirm.jpg"): Taking screenshot successfully
+
+2023-10-12 12:17:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\desktop\Purchase Confirm.jpg]]
+
+2023-10-12 12:17:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-12 12:17:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-12 12:16:44 - [TEST_SUITE][PASSED] - BlazeDemo: Test Cases/BlazeDemo/TC30-BookFlight]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

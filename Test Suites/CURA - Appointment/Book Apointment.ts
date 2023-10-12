@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Book Apointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>adc8567b-9d71-4bd5-a67b-e98850c0b968</testSuiteGuid>
+   <testCaseLink>
+      <guid>229eda7b-b2f1-4cca-ad00-bec5f6b7a00e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Driven/TC30 - Data Driven_CURA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2dcf8173-25b3-4198-b449-7a34157a4089</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CURA/INT_DATA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2dcf8173-25b3-4198-b449-7a34157a4089</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>bbd509b8-0e62-4f32-99f1-0a12e48e15e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2dcf8173-25b3-4198-b449-7a34157a4089</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>ee8bff4c-902c-4c04-a59c-84409f87aafa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2dcf8173-25b3-4198-b449-7a34157a4089</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HealthCenter</value>
+         <variableId>4f2871c0-0383-4a88-8585-bccf79358af1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2dcf8173-25b3-4198-b449-7a34157a4089</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VisitDate</value>
+         <variableId>13477b2b-4c4c-47c5-a3a5-fb06f13a7acf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2dcf8173-25b3-4198-b449-7a34157a4089</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comment</value>
+         <variableId>49fe1e34-3ff3-4b4c-9606-9c5755c59d88</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

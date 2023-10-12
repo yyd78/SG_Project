@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BlazeDemo,Chrome 117.0.0.0,,,2023-10-12 17:18:34,2023-10-12 17:19:05,31.015s,PASSED
+,,,,,,,
+Test Cases/BlazeDemo/TC30-BookFlight,Chrome 117.0.0.0,,,2023-10-12 17:18:34,2023-10-12 17:19:05,30.774s,PASSED
+openBrowser(url),Chrome 117.0.0.0,,,2023-10-12 17:18:34,2023-10-12 17:18:47,12.349s,PASSED
+deleteAllCookies(),Chrome 117.0.0.0,,,2023-10-12 17:18:47,2023-10-12 17:18:47,0.061s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,2023-10-12 17:18:47,2023-10-12 17:18:47,0.152s,PASSED
+"selectOptionByValue(findTestObject(""BlazeDemo/Page_BlazeDemo/Departure_City""), Departure_City, false)",Chrome 117.0.0.0,,,2023-10-12 17:18:47,2023-10-12 17:18:48,0.814s,PASSED
+"selectOptionByValue(findTestObject(""BlazeDemo/Page_BlazeDemo/Destination_City""), Destination_City, false)",Chrome 117.0.0.0,,,2023-10-12 17:18:48,2023-10-12 17:18:49,0.690s,PASSED
+"click(findTestObject(""BlazeDemo/Page_BlazeDemo/Find Flights""))",Chrome 117.0.0.0,,,2023-10-12 17:18:49,2023-10-12 17:18:53,4.473s,PASSED
+"click(findTestObject(""BlazeDemo/Page_BlazeDemo - reserve/Choose Flight""))",Chrome 117.0.0.0,,,2023-10-12 17:18:53,2023-10-12 17:18:54,1.249s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/Name""), ""Kelvin"")",Chrome 117.0.0.0,,,2023-10-12 17:18:54,2023-10-12 17:18:55,0.659s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/Address""), ""Tampines"")",Chrome 117.0.0.0,,,2023-10-12 17:18:55,2023-10-12 17:18:56,0.672s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/City""), ""Singapore"")",Chrome 117.0.0.0,,,2023-10-12 17:18:56,2023-10-12 17:18:56,0.652s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/State""), ""NA"")",Chrome 117.0.0.0,,,2023-10-12 17:18:56,2023-10-12 17:18:57,0.642s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/ZipCode""), ""520915"")",Chrome 117.0.0.0,,,2023-10-12 17:18:57,2023-10-12 17:18:58,0.762s,PASSED
+"selectOptionByIndex(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/Card_Type""), 2, CONTINUE_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-12 17:18:58,2023-10-12 17:18:59,0.944s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/CreditCardNumber""), ""76347826489"")",Chrome 117.0.0.0,,,2023-10-12 17:18:59,2023-10-12 17:18:59,0.694s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/CreditCardMonth""), ""12"")",Chrome 117.0.0.0,,,2023-10-12 17:18:59,2023-10-12 17:19:00,0.663s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/CreditCardYear""), ""2025"")",Chrome 117.0.0.0,,,2023-10-12 17:19:00,2023-10-12 17:19:01,0.662s,PASSED
+"setText(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/NameOnCard""), ""Kelvin Gan"")",Chrome 117.0.0.0,,,2023-10-12 17:19:01,2023-10-12 17:19:01,0.642s,PASSED
+"click(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/RememberMe""))",Chrome 117.0.0.0,,,2023-10-12 17:19:01,2023-10-12 17:19:02,0.344s,PASSED
+"verifyElementChecked(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/RememberMe""), 1)",Chrome 117.0.0.0,,,2023-10-12 17:19:02,2023-10-12 17:19:02,0.314s,PASSED
+"click(findTestObject(""BlazeDemo/Page_BlazeDemo Purchase/Purchase Flight""))",Chrome 117.0.0.0,,,2023-10-12 17:19:02,2023-10-12 17:19:03,1.573s,PASSED
+"verifyTextPresent(""Thank you for your purchase today!"", false)",Chrome 117.0.0.0,,,2023-10-12 17:19:03,2023-10-12 17:19:04,0.307s,PASSED
+"takeScreenshot(""C:\desktop\Purchase Confirm.jpg"")",Chrome 117.0.0.0,,,2023-10-12 17:19:04,2023-10-12 17:19:04,0.441s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-12 17:19:04,2023-10-12 17:19:05,0.712s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 117.0.0.0,,,2023-10-12 17:19:05,2023-10-12 17:19:05,0.031s,PASSED

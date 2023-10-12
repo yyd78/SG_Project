@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC30 - Data Driven_CURA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4183289b-9c2a-4045-9e57-da3dcee5898b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7c273f98-c3aa-4f49-9064-27fb94f0036d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CURA/CSV</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7fb22d05-1de3-4e0f-896c-0bea78842535</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CURA/Excel</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7c273f98-c3aa-4f49-9064-27fb94f0036d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserName</value>
+      <variableId>bbd509b8-0e62-4f32-99f1-0a12e48e15e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7c273f98-c3aa-4f49-9064-27fb94f0036d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>ee8bff4c-902c-4c04-a59c-84409f87aafa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7c273f98-c3aa-4f49-9064-27fb94f0036d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>HealthCenter</value>
+      <variableId>4f2871c0-0383-4a88-8585-bccf79358af1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7c273f98-c3aa-4f49-9064-27fb94f0036d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>VisitDate</value>
+      <variableId>13477b2b-4c4c-47c5-a3a5-fb06f13a7acf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7c273f98-c3aa-4f49-9064-27fb94f0036d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comment</value>
+      <variableId>49fe1e34-3ff3-4b4c-9606-9c5755c59d88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>bbd509b8-0e62-4f32-99f1-0a12e48e15e2</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>ee8bff4c-902c-4c04-a59c-84409f87aafa</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>4f2871c0-0383-4a88-8585-bccf79358af1</id>
+      <masked>false</masked>
+      <name>HealthCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>'26/10/2023'</defaultValue>
+      <description></description>
+      <id>13477b2b-4c4c-47c5-a3a5-fb06f13a7acf</id>
+      <masked>false</masked>
+      <name>VisitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing Appointment'</defaultValue>
+      <description></description>
+      <id>49fe1e34-3ff3-4b4c-9606-9c5755c59d88</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>

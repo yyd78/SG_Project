@@ -28,7 +28,7 @@ WebUI.verifyNotMatch('Katalon', 'katalon', false)
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 'Print the text of the button'
-DisabledUN = WebUI.getText(findTestObject('Page_CURA Healthcare Service/button_Login'))
+DisabledUN = WebUI.getText(findTestObject('Page_CURA Healthcare Service/Login_Btn'))
 
 System.out.println(DisabledUN)
 

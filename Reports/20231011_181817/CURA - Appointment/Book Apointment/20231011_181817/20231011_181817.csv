@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Book Apointment,Chrome 117.0.0.0,,,2023-10-11 18:18:24,2023-10-11 18:19:05,40.968s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC30 - Data Driven_CURA,Chrome 117.0.0.0,,,2023-10-11 18:18:25,2023-10-11 18:18:39,14.123s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 117.0.0.0,,,2023-10-11 18:18:25,2023-10-11 18:18:30,5.048s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username""), UserName)",Chrome 117.0.0.0,,,2023-10-11 18:18:30,2023-10-11 18:18:31,0.768s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password""), Password)",Chrome 117.0.0.0,,,2023-10-11 18:18:31,2023-10-11 18:18:32,0.747s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Login_Btn""))",Chrome 117.0.0.0,,,2023-10-11 18:18:32,2023-10-11 18:18:33,1.086s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Healthcare Center""), HealthCenter, false)",Chrome 117.0.0.0,,,2023-10-11 18:18:33,2023-10-11 18:18:34,0.867s,PASSED
+"check(findTestObject(""Page_CURA Healthcare Service/Hospital readmission""))",Chrome 117.0.0.0,,,2023-10-11 18:18:34,2023-10-11 18:18:34,0.402s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_None_programs""))",Chrome 117.0.0.0,,,2023-10-11 18:18:34,2023-10-11 18:18:35,0.386s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Visit Date""), VisitDate)",Chrome 117.0.0.0,,,2023-10-11 18:18:35,2023-10-11 18:18:35,0.795s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Comment""), Comment)",Chrome 117.0.0.0,,,2023-10-11 18:18:35,2023-10-11 18:18:36,0.840s,PASSED
+"submit(findTestObject(""Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 117.0.0.0,,,2023-10-11 18:18:36,2023-10-11 18:18:37,0.664s,PASSED
+"takeScreenshot(""C:\desktop\booking_confirm.jpg"")",Chrome 117.0.0.0,,,2023-10-11 18:18:37,2023-10-11 18:18:37,0.589s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Menu""))",Chrome 117.0.0.0,,,2023-10-11 18:18:37,2023-10-11 18:18:38,0.375s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Logout""))",Chrome 117.0.0.0,,,2023-10-11 18:18:38,2023-10-11 18:18:39,1.034s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC30 - Data Driven_CURA,Chrome 117.0.0.0,,,2023-10-11 18:18:39,2023-10-11 18:18:52,13.361s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 117.0.0.0,,,2023-10-11 18:18:39,2023-10-11 18:18:44,5.232s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username""), UserName)",Chrome 117.0.0.0,,,2023-10-11 18:18:44,2023-10-11 18:18:45,0.716s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password""), Password)",Chrome 117.0.0.0,,,2023-10-11 18:18:45,2023-10-11 18:18:46,0.712s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Login_Btn""))",Chrome 117.0.0.0,,,2023-10-11 18:18:46,2023-10-11 18:18:47,1.021s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Healthcare Center""), HealthCenter, false)",Chrome 117.0.0.0,,,2023-10-11 18:18:47,2023-10-11 18:18:47,0.778s,PASSED
+"check(findTestObject(""Page_CURA Healthcare Service/Hospital readmission""))",Chrome 117.0.0.0,,,2023-10-11 18:18:47,2023-10-11 18:18:48,0.391s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_None_programs""))",Chrome 117.0.0.0,,,2023-10-11 18:18:48,2023-10-11 18:18:48,0.364s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Visit Date""), VisitDate)",Chrome 117.0.0.0,,,2023-10-11 18:18:48,2023-10-11 18:18:49,0.742s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Comment""), Comment)",Chrome 117.0.0.0,,,2023-10-11 18:18:49,2023-10-11 18:18:50,0.768s,PASSED
+"submit(findTestObject(""Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 117.0.0.0,,,2023-10-11 18:18:50,2023-10-11 18:18:50,0.622s,PASSED
+"takeScreenshot(""C:\desktop\booking_confirm.jpg"")",Chrome 117.0.0.0,,,2023-10-11 18:18:50,2023-10-11 18:18:51,0.484s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Menu""))",Chrome 117.0.0.0,,,2023-10-11 18:18:51,2023-10-11 18:18:51,0.412s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Logout""))",Chrome 117.0.0.0,,,2023-10-11 18:18:51,2023-10-11 18:18:52,1.090s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC30 - Data Driven_CURA,Chrome 117.0.0.0,,,2023-10-11 18:18:52,2023-10-11 18:19:05,12.926s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 117.0.0.0,,,2023-10-11 18:18:52,2023-10-11 18:18:57,4.762s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username""), UserName)",Chrome 117.0.0.0,,,2023-10-11 18:18:57,2023-10-11 18:18:58,0.741s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password""), Password)",Chrome 117.0.0.0,,,2023-10-11 18:18:58,2023-10-11 18:18:59,0.758s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Login_Btn""))",Chrome 117.0.0.0,,,2023-10-11 18:18:59,2023-10-11 18:19:00,0.984s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Healthcare Center""), HealthCenter, false)",Chrome 117.0.0.0,,,2023-10-11 18:19:00,2023-10-11 18:19:00,0.690s,PASSED
+"check(findTestObject(""Page_CURA Healthcare Service/Hospital readmission""))",Chrome 117.0.0.0,,,2023-10-11 18:19:00,2023-10-11 18:19:01,0.387s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_None_programs""))",Chrome 117.0.0.0,,,2023-10-11 18:19:01,2023-10-11 18:19:01,0.428s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Visit Date""), VisitDate)",Chrome 117.0.0.0,,,2023-10-11 18:19:01,2023-10-11 18:19:02,0.780s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Comment""), Comment)",Chrome 117.0.0.0,,,2023-10-11 18:19:02,2023-10-11 18:19:03,0.835s,PASSED
+"submit(findTestObject(""Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 117.0.0.0,,,2023-10-11 18:19:03,2023-10-11 18:19:03,0.669s,PASSED
+"takeScreenshot(""C:\desktop\booking_confirm.jpg"")",Chrome 117.0.0.0,,,2023-10-11 18:19:03,2023-10-11 18:19:04,0.533s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Menu""))",Chrome 117.0.0.0,,,2023-10-11 18:19:04,2023-10-11 18:19:04,0.348s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Logout""))",Chrome 117.0.0.0,,,2023-10-11 18:19:04,2023-10-11 18:19:05,0.999s,PASSED

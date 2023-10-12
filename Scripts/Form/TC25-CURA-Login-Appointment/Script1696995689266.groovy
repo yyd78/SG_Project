@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Passwo
 
 WebUI.takeScreenshot("C:\\desktop\\Login.jpg")
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/Login_Btn'))
 
 WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service/select_Healthcare Center'), '2', FailureHandling.CONTINUE_ON_FAILURE)
 

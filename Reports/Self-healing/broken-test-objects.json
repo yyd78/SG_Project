@@ -1,3 +1,44 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/Hospital readmission",
+      "brokenLocator": "//input[@id\u003d\u0027chk_hospotal_readmission\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/Hospital readmission_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/input_Visit Date",
+      "brokenLocator": "//input[@id\u003d\u0027txt_visit_date\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/input_Visit Date_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/button_Book Appointment",
+      "brokenLocator": "//button[@id\u003d\u0027btn-book-appointment\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[3]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/button_Book Appointment_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/Logout",
+      "brokenLocator": "(//a[@onclick\u003d\"$(\u0027#menu-close\u0027).click();\"])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[2]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/Logout_neighbor.png"
+    }
+  ]
 }

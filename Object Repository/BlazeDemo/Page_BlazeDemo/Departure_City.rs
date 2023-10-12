@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>Departure_City</name>
    <tag></tag>
-   <elementGuidId>2c153b63-e609-4b98-bd5d-5c649826b2a3</elementGuidId>
+   <elementGuidId>3d3e8acc-afa3-471c-a959-6949dda010c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btn-login</value>
+         <value>select[name=&quot;fromPort&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>//select[@name='fromPort']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f3ec8523-1679-4a56-a889-c7b2a78f04a2</webElementGuid>
+      <value>select</value>
+      <webElementGuid>ad2b7269-6dda-4d2b-8920-c885ba72c10e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>btn-login</value>
-      <webElementGuid>6940e039-06a6-46f4-bfff-7cc17aab9f0c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>551bdd0e-4397-44cf-868a-3525ec009040</webElementGuid>
+      <value>fromPort</value>
+      <webElementGuid>950f4cf3-7694-4c5d-b031-38e2a873fe1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>402da830-7b4d-48e5-a2d5-27d45fb7c863</webElementGuid>
+      <value>form-inline</value>
+      <webElementGuid>1f04dc41-675f-4517-916f-064e34714173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>953f783c-c20f-49ee-aa7e-371a3a5a8cd7</webElementGuid>
+      <value>
+            Paris
+            Philadelphia
+            Boston
+            Portland
+            San Diego
+            Mexico City
+            São Paolo
+        </value>
+      <webElementGuid>8fde2414-2541-4cb8-b3c4-83f715e8ca82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-login&quot;)</value>
-      <webElementGuid>d39c4f41-c204-417b-bc12-36b8f5ade442</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/form[1]/select[@class=&quot;form-inline&quot;]</value>
+      <webElementGuid>8a84054b-6ef6-4582-bbab-5bc423956b87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btn-login']</value>
-      <webElementGuid>3ecfdf16-3bc3-40b5-91dc-4a04035722d2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[4]/div/button</value>
-      <webElementGuid>c7d646d8-9e5c-4812-9f2f-9be4a41e83c7</webElementGuid>
+      <value>//select[@name='fromPort']</value>
+      <webElementGuid>8e38991c-308d-41cd-ba1b-dcfda41a2345</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>ef53a1c4-9881-414e-802d-23831d136b41</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose your departure city:'])[1]/following::select[1]</value>
+      <webElementGuid>4ce034ee-8936-42f9-a604-36c50491a43c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>37ac940b-7835-4961-8635-894d096b47f0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='destination of the week! The Beach!'])[1]/following::select[1]</value>
+      <webElementGuid>89d4e7dc-f487-4fbf-9093-c43ce9bf7571</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::button[1]</value>
-      <webElementGuid>685a7ac6-d32e-4dc9-a464-718ab4466be2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose your destination city:'])[1]/preceding::select[1]</value>
+      <webElementGuid>c8e483e7-3cf1-42dd-87b9-4c85d1f7b3f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::button[1]</value>
-      <webElementGuid>527c500d-6de8-468f-9e72-d26b2f6fb4b8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[2]</value>
+      <webElementGuid>e5f37b68-cb93-4bd2-804f-d1e9e5547960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>bfa6f3c7-a81a-4fa9-bf4a-52336c8dfdb8</webElementGuid>
+      <value>//select</value>
+      <webElementGuid>0550743e-6285-4d15-8b6a-21fdd211d312</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>4c76ef51-4903-4269-940b-b161c3d07007</webElementGuid>
+      <value>//select[@name = 'fromPort' and (text() = '
+            Paris
+            Philadelphia
+            Boston
+            Portland
+            San Diego
+            Mexico City
+            São Paolo
+        ' or . = '
+            Paris
+            Philadelphia
+            Boston
+            Portland
+            San Diego
+            Mexico City
+            São Paolo
+        ')]</value>
+      <webElementGuid>d2f455fc-5179-4029-9d4c-925bef9d9e99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
